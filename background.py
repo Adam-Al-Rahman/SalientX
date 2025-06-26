@@ -14,7 +14,7 @@ def generate_background_image(
     bg_mask: Image.Image,
     prompt: str,
     seed: int = 990099,
-    num_steps: int = 50,
+    num_steps: int = 25,
     cond_scale: float = 1.0,
     reproducibility: bool = True
 ):
